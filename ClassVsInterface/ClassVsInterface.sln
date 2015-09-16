@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassVsInterface", "ClassVsInterface\ClassVsInterface.csproj", "{C63B69AA-079C-41E3-9CB8-BF2F710E8B9B}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{8CFBDE01-0CAA-4D29-BCA3-7BB9B58432D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C63B69AA-079C-41E3-9CB8-BF2F710E8B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C63B69AA-079C-41E3-9CB8-BF2F710E8B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C63B69AA-079C-41E3-9CB8-BF2F710E8B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFBDE01-0CAA-4D29-BCA3-7BB9B58432D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFBDE01-0CAA-4D29-BCA3-7BB9B58432D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFBDE01-0CAA-4D29-BCA3-7BB9B58432D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFBDE01-0CAA-4D29-BCA3-7BB9B58432D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

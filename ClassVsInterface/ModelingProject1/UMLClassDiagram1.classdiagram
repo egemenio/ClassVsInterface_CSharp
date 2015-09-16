@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="56995e7f-cf03-4ede-a452-3f462999f75a" name="UMLClassDiagram1" linkedPackageId="0283aa8a-d057-4f80-b874-8e357fc43593" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="feda7e27-665e-46a6-b720-1e6f6ecac582">
+      <profileInstance Id="fded61d0-fc65-4373-a5d9-6a8e3b6ab49d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5f4321b9-538a-4431-8781-b631944f83f9">
+      <profileInstance Id="eb932cbe-4d48-4c92-a293-84fb23d45367" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c2df87aa-78c0-446f-9585-03e908b807d9">
+      <profileInstance Id="c127fd7c-ed38-4e53-8ef6-a382efb432e4" name="CSharpProfile">
+        <elementDefinition Id="09ca4cf9-a0db-4b63-8172-2bed8c811472" />
+      </profileInstance>
+      <elementDefinition Id="5c0f0428-4868-4b88-8d0d-45c0d10ac9c9" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="768615c1-8b6f-48b5-a39d-b04d5fb7e22c" name="Bird" visibility="Package" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="b536c27b-779f-452b-a3bc-36b0f6081534" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DBird" tag="ViewCode">
+            <elementDefinition Id="3405a199-2286-4648-aad5-bdf793b51e26" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="3ec9d395-998e-4222-8ed8-3dab4a92b7b5" name="class" profile="CSharpProfile">
+            <elementDefinition Id="e5bbf78d-ccce-456c-a5cb-fb70814cdbce" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="60879fd3-6550-4b06-8a4c-05035296f97a">
+                <propertyInstance Id="1760b8ec-ef6c-4f56-b1eb-7376a55f3de3" name="ClrAttributes">
+                  <elementDefinition Id="1dfecdcf-2e73-47a9-adb9-25a17bac8dce" />
+                </propertyInstance>
+                <elementDefinition Id="88366a2c-9127-45b2-951a-bbab4c704f4b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="cab6b3f1-2607-441a-b032-5ceeb9037b48">
+                <propertyInstance Id="17d3d61e-35d5-4645-9762-3e4c5cfda538" name="IsPartial" value="false">
+                  <elementDefinition Id="d8db9718-ac17-46eb-824a-2fd8468dcdb8" />
+                </propertyInstance>
+                <elementDefinition Id="65945f70-d57f-4053-8ba3-7b96e728c5fc" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="80203bcf-f21f-478a-884f-f6a6f532cb1f">
+                <propertyInstance Id="8cbe9d17-8929-46d3-a45e-bba77b4c1708" name="IsStatic" value="False">
+                  <elementDefinition Id="dedb2a9d-946d-4602-840f-fb2ed4d5e9df" />
+                </propertyInstance>
+                <elementDefinition Id="005bf7b0-53a6-44af-82f1-403ee7202593" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="08000b14-dbd9-466c-9e49-5be5492d6c7f">
+                <propertyInstance Id="e85a3a4a-a0f1-456e-b781-5380bfad1242" name="IsUnsafe" value="false">
+                  <elementDefinition Id="804cf4b7-f037-4960-a8ac-b395c053703f" />
+                </propertyInstance>
+                <elementDefinition Id="a68c6b7f-0928-4e36-ae02-a7bd57369a81" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b1f0ae01-003d-40b1-ba4f-d6570bf88714">
+                <propertyInstance Id="818aa424-c015-4f42-a547-1a3daef159d6" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="af550bfd-1855-4d58-8310-031acc84c6cf" />
+                </propertyInstance>
+                <elementDefinition Id="7ad6bff4-f7ae-4131-9367-ea1588550946" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="7234a575-6cee-4bc0-b8ee-2e9b24a67117" />
+        <suppliersInternal>
+          <interfaceRealization Id="6fbcecaf-f657-4a24-9c42-395248d81249">
+            <interfaceMoniker Id="eec22939-377f-45d8-9e74-96af613901f6" LastKnownName="IMovable" />
+            <elementDefinition Id="f0ac556f-c94d-482b-8e69-f65297d3dfc4" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="e7917c19-3ed4-4e97-b48c-95c136bda334" name="Bird" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a3a93216-9355-4b97-a9ae-e4a32c6c08f8" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DBird Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="cdd35cdb-0b7e-4064-b06b-e741899f3c60" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b3d84b28-4375-43d1-a1d1-42f354c6cd59" name="method" profile="CSharpProfile">
+                <elementDefinition Id="40f194ce-d884-4bad-a174-067ebebb14e2" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="51af20d4-94b3-454f-b90b-c3995b182e62">
+                    <propertyInstance Id="4f345d58-d901-4c94-bbd3-495e3abe8989" name="ClrAttributes">
+                      <elementDefinition Id="cb05e06d-87ca-475a-ae12-a8501b327231" />
+                    </propertyInstance>
+                    <elementDefinition Id="170bf5a2-2565-410f-aad7-b011a77949a7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7e712b3c-dbdd-4289-a5fb-997535d5ab73">
+                    <propertyInstance Id="848575d2-dc36-4536-8c62-74717f6b4cf4" name="IsPartial" value="false">
+                      <elementDefinition Id="4a76c7cc-82f9-4301-99b2-fa0d4c8e494c" />
+                    </propertyInstance>
+                    <elementDefinition Id="b4bf7fbb-a3e5-436f-9822-eb3cc98fcf4f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d3e8f8c1-224d-4a31-95f8-d9faf34195a5">
+                    <propertyInstance Id="5a909d63-e5fb-407b-887a-c94f673b4510" name="IsUnsafe" value="false">
+                      <elementDefinition Id="f183ea57-83b8-4e60-aa3d-6dc097678926" />
+                    </propertyInstance>
+                    <elementDefinition Id="7f63f210-fa42-43f2-8b99-4747e58cb5fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4db07ce7-db07-42ab-b7d9-a62799cd034f">
+                    <propertyInstance Id="63cd74ff-0f86-41df-8984-1b1fa6ee56ff" name="Inheritance" value="none">
+                      <elementDefinition Id="b8690ed2-7e21-4bb8-b5e9-4324c5c42db2" />
+                    </propertyInstance>
+                    <elementDefinition Id="ce6d1315-0b80-4b75-a50a-2f03e4f4dbb9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="564b32ed-bc19-44b1-82f3-e0e720320742">
+                    <propertyInstance Id="8141c7cf-bd3c-42fa-8304-1e4b70972533" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d4f55c7b-d1d8-4c5d-8582-fc2f0bc2d904" />
+                    </propertyInstance>
+                    <elementDefinition Id="e665616c-7cd5-404e-85ef-082eb08fe3cc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8751e6b8-3ead-4f58-8340-40b944f07c5b">
+                    <propertyInstance Id="fc01ef99-267b-47d7-8677-89dded90264f" name="params" value="false">
+                      <elementDefinition Id="cd51b277-ca38-49d1-9a07-91ecd5e11b5b" />
+                    </propertyInstance>
+                    <elementDefinition Id="715513d9-25c8-462f-ba5f-6733c8069f0f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="8e9c4791-ad85-4907-9ea2-96171b724be7" />
+          </operation>
+          <operation Id="8a3a293d-1e9b-4f5e-9b96-d972eda28c4c" name="Move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="5151e716-5505-4f16-8309-81958d650e5e" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DBird Member%3DMove" tag="ViewCode">
+                <elementDefinition Id="9a168814-7db0-48f7-9453-6aaee4849010" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a62c60b6-3bec-41e1-9827-f76eb9c9b8c2" name="method" profile="CSharpProfile">
+                <elementDefinition Id="2a3775f3-dc2c-4742-986f-3ca7d522c05f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e17bcb32-8ffa-42b0-abc7-7b6d121620e8">
+                    <propertyInstance Id="01dee221-376d-4501-bc5a-f80d367b50dc" name="ClrAttributes">
+                      <elementDefinition Id="96882195-c3a9-4050-b9c6-bc49cd95f1fc" />
+                    </propertyInstance>
+                    <elementDefinition Id="3540b6c6-cc55-4c25-b193-2069bda4ce28" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ecd49e2b-c01a-4ce3-8a8e-bfb78b8368e9">
+                    <propertyInstance Id="05137b3b-836d-48ef-88e4-e66db508ac9e" name="IsPartial" value="false">
+                      <elementDefinition Id="6f2771cf-07a6-42ab-878c-f3a5a81c2dc3" />
+                    </propertyInstance>
+                    <elementDefinition Id="70fdcbf8-47d4-494c-944d-ce3d9904d2aa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dc500af7-a587-4715-b0b6-eff49129512c">
+                    <propertyInstance Id="a8b38126-faf9-4421-a0ea-22e063497744" name="IsUnsafe" value="false">
+                      <elementDefinition Id="13ab62b6-03f3-4e1f-bcf4-3f727ea91fe4" />
+                    </propertyInstance>
+                    <elementDefinition Id="cb093f77-be59-4349-a810-7dc3c9f6da5b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3fa698ee-a540-4fd8-8989-e21e5a79a08e">
+                    <propertyInstance Id="0942e2df-c3bc-4b69-acbe-d4273fe7ae8b" name="Inheritance" value="none">
+                      <elementDefinition Id="f711c334-5317-4b2f-a6d9-b43b9dfc5488" />
+                    </propertyInstance>
+                    <elementDefinition Id="b4617400-47d1-447e-995d-18714e89c3b5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="defcbae1-30b5-4a46-8418-ae1248d7ec3b">
+                    <propertyInstance Id="9b3af970-63e0-493c-9345-0b47ce32ffb9" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="212c7cac-98b3-44df-8f8e-1f85c8ed79bb" />
+                    </propertyInstance>
+                    <elementDefinition Id="3386797c-892e-4330-b2cc-5612a9d14a0d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e21c5074-f989-41fa-b5c2-7c8b38aed088">
+                    <propertyInstance Id="28555cc7-b5e3-483f-84f5-521094ed0050" name="params" value="false">
+                      <elementDefinition Id="f0c49eff-8f0e-4c43-8744-2edd8053e22a" />
+                    </propertyInstance>
+                    <elementDefinition Id="2b5684ad-10ad-48f8-bc5c-0e776a257198" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="b1d097b8-dc71-4e58-aeb1-bbb1498145c7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="135d4e4e-f942-4cc0-bf8e-6e9e8dfd7137" name="Fish" visibility="Package" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="4716d1da-f7fb-4970-aa3c-ec8b35422d00" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DFish" tag="ViewCode">
+            <elementDefinition Id="80b92ea6-0d1b-427c-a46d-ab25e5380882" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="26ac1768-8491-4caf-8704-de08b4045f47" name="class" profile="CSharpProfile">
+            <elementDefinition Id="0667829e-adc4-42c9-b6a5-bab030f50b63" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1897a521-0ba0-48d1-afef-d3d94f86a78a">
+                <propertyInstance Id="13dfa560-0fe7-439e-b315-986a512cf977" name="ClrAttributes">
+                  <elementDefinition Id="6baf3b67-a338-4af1-8b7c-1a7444b75c77" />
+                </propertyInstance>
+                <elementDefinition Id="4e8db4d0-e518-42cf-8ec6-8ee37ec68a05" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a980d557-222f-46aa-a68d-4c843dbc0582">
+                <propertyInstance Id="510126e8-92e5-4c21-b164-3f3387fa4c7a" name="IsPartial" value="false">
+                  <elementDefinition Id="a1468297-bfd8-4ba9-89f3-8bbf661f7b4d" />
+                </propertyInstance>
+                <elementDefinition Id="217de099-805f-4f80-a4e7-1ade4ca12fde" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6929446e-3687-4e6f-a0a6-9818be391756">
+                <propertyInstance Id="deefda7b-e97c-47ee-8b40-367642a94116" name="IsStatic" value="False">
+                  <elementDefinition Id="9f60d45d-6d4b-490c-a588-8eb6967e9a32" />
+                </propertyInstance>
+                <elementDefinition Id="8897881e-74c3-414e-b6b1-34af5cd48023" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e4e0055d-57e7-446e-b3a4-d824ca1468d7">
+                <propertyInstance Id="8194713f-49a4-4f12-a7aa-0f371c5cd616" name="IsUnsafe" value="false">
+                  <elementDefinition Id="c13b8776-29f7-4d9b-9d55-1b63963457bd" />
+                </propertyInstance>
+                <elementDefinition Id="bf25de17-86e3-4145-8371-b54300721a0d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bb299048-bb9a-448c-a143-3409df431205">
+                <propertyInstance Id="d368e1e0-14e9-43d0-b3e5-fbaf5fb65d6c" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="b7979eb0-3293-4059-95c4-bf357e1d19f9" />
+                </propertyInstance>
+                <elementDefinition Id="71e31a05-c9fb-4f28-b82c-eb911853510c" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="0959e8cf-d438-45db-85c7-b88898206300" />
+        <suppliersInternal>
+          <interfaceRealization Id="49b98e3a-cb05-41ef-83cc-64cb0b5baad0">
+            <interfaceMoniker Id="eec22939-377f-45d8-9e74-96af613901f6" LastKnownName="IMovable" />
+            <elementDefinition Id="e4227869-e499-4651-919d-5276e69052b2" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="da1140eb-c6d8-443a-8806-dead4933b5a6" name="Fish" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="6eb34288-5f1d-400b-8edb-42f3803b92b1" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DFish Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="22985ff3-f033-4b11-bc98-fbaa5f834347" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f7b396f7-8ffb-4c09-ae80-276ad68e4650" name="method" profile="CSharpProfile">
+                <elementDefinition Id="6d8ca244-c5b7-4852-a85c-12d3d874a97f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a25cbc05-b9ad-4e46-a950-a81705dc1987">
+                    <propertyInstance Id="0f11c24e-8642-4753-8cca-5de88c224fd9" name="ClrAttributes">
+                      <elementDefinition Id="8602a567-dad4-4c91-8a2d-6cc631baded7" />
+                    </propertyInstance>
+                    <elementDefinition Id="7b737d90-af76-4777-a3e4-579e4983ac4e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="05592302-56a8-40d6-b8a6-06fb56c08fdd">
+                    <propertyInstance Id="0d6309f2-1b4b-4a89-86b2-19dc79ce4d56" name="IsPartial" value="false">
+                      <elementDefinition Id="51475d68-2867-456f-8780-e156907ff328" />
+                    </propertyInstance>
+                    <elementDefinition Id="ad706b20-1702-49ea-9e4a-33220311ca9a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7ac85042-d026-4d81-8387-9ae22f73d581">
+                    <propertyInstance Id="d521a482-a8f5-44d7-a8f1-b1517be94958" name="IsUnsafe" value="false">
+                      <elementDefinition Id="720b6da6-44a0-47ba-a4cc-672fc9774b17" />
+                    </propertyInstance>
+                    <elementDefinition Id="e2779bc1-2386-46f4-802a-a1d58bf552ce" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eedc9163-0b33-4ae5-8fe2-d8837fc3a0c9">
+                    <propertyInstance Id="7f69c8a2-996d-4e12-802c-b05dfe5513b1" name="Inheritance" value="none">
+                      <elementDefinition Id="bd94ddaf-c98c-4c81-9a29-17cb790a26f7" />
+                    </propertyInstance>
+                    <elementDefinition Id="2a8b555a-8c89-4fe6-8d34-6e76f6d0139a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="56e578bd-1996-4e04-a635-f5fa4d8a79af">
+                    <propertyInstance Id="5ed20efc-57d4-45ef-91f1-e22877a0d7ab" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5f9df8f3-782d-4e6b-82f8-6498e39f11ab" />
+                    </propertyInstance>
+                    <elementDefinition Id="202b5006-9ee4-4d48-843a-98cfa48c734d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="939be2e1-cd8e-415f-82cf-d77a78c238db">
+                    <propertyInstance Id="ce998d18-9bc5-4585-a8ec-8511be376fd0" name="params" value="false">
+                      <elementDefinition Id="e8e03ede-91c1-4611-8733-6fc577e2ef28" />
+                    </propertyInstance>
+                    <elementDefinition Id="7c1a2033-800e-424e-807e-f9c4ccef9526" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a5a85928-e68a-44d7-994d-f7caf21e4302" />
+          </operation>
+          <operation Id="75e874f2-5f34-4486-b465-3e0caf8a191f" name="Move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="492322ea-d944-4c4e-96ca-15a14e5713fd" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DFish Member%3DMove" tag="ViewCode">
+                <elementDefinition Id="0ebe03d8-80a4-4cf0-8961-a69f670bd352" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4829dcd2-55f4-46ef-8238-7fe8970db334" name="method" profile="CSharpProfile">
+                <elementDefinition Id="de21ad6f-6aa8-4e39-b714-2aedac595eac" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d63b9e73-dd07-44eb-918b-0a8c31bb0a39">
+                    <propertyInstance Id="9e7b2663-62be-4c73-b5a0-ed5c5f2905c4" name="ClrAttributes">
+                      <elementDefinition Id="2f3d15d9-8fcd-4541-b020-6546e8e41d93" />
+                    </propertyInstance>
+                    <elementDefinition Id="e80d694f-0ede-40c0-a842-ff9e9824bcf7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4a979f72-fe1a-4e3c-a754-1474d1b711c5">
+                    <propertyInstance Id="8b09352c-f09f-4e3f-96a6-9d42079d83fc" name="IsPartial" value="false">
+                      <elementDefinition Id="13989bd6-0c3b-4d7e-b41d-1403d771065d" />
+                    </propertyInstance>
+                    <elementDefinition Id="832b82f0-25bc-48b8-80e3-6429547674b8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8ae86720-743f-4e47-b8d5-b82e79dbff3b">
+                    <propertyInstance Id="d46625c1-f7f7-4574-b039-7e0080659530" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a4b13c55-b690-458a-bb78-bcd016486156" />
+                    </propertyInstance>
+                    <elementDefinition Id="8bde5622-bba4-4cc2-b1aa-8d9e388507c7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="52d6db72-0b07-4f4e-b04e-40e5505c6b02">
+                    <propertyInstance Id="9ba128f4-066e-41a6-809d-4062ab16db6e" name="Inheritance" value="none">
+                      <elementDefinition Id="724b42b5-47f6-4376-87a0-c4c1422db450" />
+                    </propertyInstance>
+                    <elementDefinition Id="922fab15-be2d-4292-bfd8-c7104fc5bf3c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2296aa77-e28d-4d1b-8b1e-efb4f7e7dd0f">
+                    <propertyInstance Id="a1f8c2ee-22e4-4d31-b6ab-6762573110fa" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="80f7f83c-6fdf-4d73-988b-355fc955c469" />
+                    </propertyInstance>
+                    <elementDefinition Id="74967f38-5aab-44a3-ae52-1ad997f9267a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="940763ea-0423-45d9-b858-10a89805f04f">
+                    <propertyInstance Id="1fe6b82d-2706-4449-bd09-1062936068e2" name="params" value="false">
+                      <elementDefinition Id="4b1a4634-0ef6-44d6-ba7c-4e24ca78037d" />
+                    </propertyInstance>
+                    <elementDefinition Id="64e1cb8a-7e93-49b8-adde-42e4e4ef4157" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="f122e409-3b91-4136-867a-877de4bb5c4c" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="eec22939-377f-45d8-9e74-96af613901f6" name="IMovable" visibility="Package" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="49d4257f-3847-4a07-b3ad-6263329a5701" handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DIMovable" tag="ViewCode">
+            <elementDefinition Id="810baa9f-5f5b-4ee0-b30c-0c6b4c7321a5" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="ba4fcc3b-edbc-4346-8f63-d47b4906bc2b" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="a40ed833-759e-48a3-9c65-ff71e73f6d94" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7df9fc7c-d4b4-46ab-ba1a-c191bfb33ced">
+                <propertyInstance Id="078dab95-fb2a-425d-ae37-22240a530209" name="ClrAttributes">
+                  <elementDefinition Id="9f571b02-6867-4c7c-930d-ea579d3ccd5e" />
+                </propertyInstance>
+                <elementDefinition Id="d39c9a70-9abe-4e28-9fbc-255cbd459782" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="43bf2cb8-b6e3-4064-af6d-9712a86ab9a5">
+                <propertyInstance Id="270b327e-013d-4e64-92c6-ca3a7bfe26ea" name="IsPartial" value="false">
+                  <elementDefinition Id="adf54b27-cabb-4f87-8d76-4b2062781864" />
+                </propertyInstance>
+                <elementDefinition Id="7a9f7570-b05a-4961-af24-5c5f964e0603" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b7a7221b-57f9-43a0-933d-de59da01b4d0">
+                <propertyInstance Id="5fae9d75-b84c-49b8-bdb4-6b277d80d69c" name="IsUnsafe" value="false">
+                  <elementDefinition Id="8dad19ca-a061-48b5-af55-83f959d04f21" />
+                </propertyInstance>
+                <elementDefinition Id="d82f3a77-1339-48c6-aecf-1475908d8249" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="56009f49-d001-4017-8dea-063397a42cf1">
+                <propertyInstance Id="310d2965-3b8c-4d35-9808-93b7c5519148" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="acd22e86-d54a-442e-a049-d57122decab4" />
+                </propertyInstance>
+                <elementDefinition Id="4f77b5e7-5ea6-49ba-b59d-73a05e574362" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="18c88ee6-ef19-4e0d-b1e3-9817a64cad4d" />
+        <ownedOperations>
+          <operation Id="3c8f05d5-7b25-4b00-805d-bab123ac29d7" name="Move" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="6aafbf49-6d0e-4799-82f3-e0e757d3944d" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DIMovable Member%3DMove" tag="ViewCode">
+                <elementDefinition Id="34a013c2-2685-48d5-bef6-ec97b09c7f3c" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="1949da6c-1462-4edd-9512-91249cdf2361" name="method" profile="CSharpProfile">
+                <elementDefinition Id="3b781560-d461-402e-8c31-ee7246ea6a94" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="05e6308d-fa0a-4b75-a666-d4732c5db098">
+                    <propertyInstance Id="f46557bb-00c6-4692-b42a-b334f5f72d7f" name="ClrAttributes">
+                      <elementDefinition Id="483b26f3-7ded-477f-bcfc-04d2e4460ba5" />
+                    </propertyInstance>
+                    <elementDefinition Id="84d490d1-3b45-44d2-b9e9-e220cebf7105" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="73738a40-377c-425a-bf80-2be4f8e52083">
+                    <propertyInstance Id="9f2c7e8a-45d6-482d-9f8d-c4c3c1f08dee" name="IsPartial" value="false">
+                      <elementDefinition Id="63252610-6108-4f55-83b4-49e1ac07dc12" />
+                    </propertyInstance>
+                    <elementDefinition Id="214d3c80-4791-4f42-b41e-e3e7b08b56aa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d1179c94-f0d5-496d-97cd-97f4a60fdb36">
+                    <propertyInstance Id="71719f38-3de6-4a75-a71e-deb7430b2886" name="IsUnsafe" value="false">
+                      <elementDefinition Id="055b138f-6689-4695-8ead-86635cf281cf" />
+                    </propertyInstance>
+                    <elementDefinition Id="5d59d38e-eae3-4ac4-b63b-88cc26e04970" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0663443d-a586-4720-90d4-fff10a5e804e">
+                    <propertyInstance Id="c7c79318-a0d3-4c66-8817-5eafb20609b1" name="Inheritance" value="none">
+                      <elementDefinition Id="19729186-97cc-4943-a983-2d5282d3633a" />
+                    </propertyInstance>
+                    <elementDefinition Id="71098905-7cc0-4f09-bdb1-f5868685cf84" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3069c826-9f90-4487-aa03-10c7878c6f0d">
+                    <propertyInstance Id="1829879b-88a5-4610-871e-82a5272b6126" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7474fcaf-a46f-4ebe-96c7-c41c5756b2dd" />
+                    </propertyInstance>
+                    <elementDefinition Id="49163137-2373-4b33-b55c-b31e540e7753" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c398b694-2278-4066-a35c-ad9af676b419">
+                    <propertyInstance Id="c3a72044-815a-404e-9b60-0607c87a0eb7" name="params" value="false">
+                      <elementDefinition Id="a724589d-11c1-4351-87b8-42ce7ea92c8c" />
+                    </propertyInstance>
+                    <elementDefinition Id="a45d462d-da8c-42a5-b833-b39a34cc0ffa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="c8b39604-3c4b-4a22-845a-852763dd25f2" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ab541a36-6cfb-4be2-8347-9409cecd53ec" name="Person" visibility="Package" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="63ffc970-ed9d-408c-904e-3f6772ae2004" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DPerson" tag="ViewCode">
+            <elementDefinition Id="22917ee9-f90e-4b36-bfa4-9bdf08ffa466" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="a9dd323a-eef2-48fb-887d-1ae7383d5194" name="class" profile="CSharpProfile">
+            <elementDefinition Id="7be59539-9ee4-4f16-a05c-c0cb4bf3a6fd" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="30f4ca01-38ff-4f75-b838-d132b32f583a">
+                <propertyInstance Id="71bc640c-085e-4656-b0df-e0712499e6fd" name="ClrAttributes">
+                  <elementDefinition Id="48e6c89a-3407-4b88-b2a6-d0bfe3315d14" />
+                </propertyInstance>
+                <elementDefinition Id="ae68c33b-aa33-4d2b-8010-900ab9e0e5e8" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="da087708-e7bc-49e5-a4ad-0f2240d2fcfc">
+                <propertyInstance Id="bfb3ee79-36e1-4a60-ad3a-ec31ce543c21" name="IsPartial" value="false">
+                  <elementDefinition Id="77ce08fa-4886-4e00-a69c-bffb1313a4f3" />
+                </propertyInstance>
+                <elementDefinition Id="26d8fad4-a438-4989-911d-91d9ae5a659f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1fded3bc-9241-41a3-b01c-bfd061c9d427">
+                <propertyInstance Id="7f9d649b-7003-406d-a91e-c3ecaf80a75c" name="IsStatic" value="False">
+                  <elementDefinition Id="dcf89cbc-ab0b-485f-b0bb-1f9cd5ed13e6" />
+                </propertyInstance>
+                <elementDefinition Id="356de45c-3db4-4690-af9f-ad70e9b82053" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7e4b4dbd-939a-47e6-b54b-8ce2fe297b04">
+                <propertyInstance Id="0b4495c6-83cd-4ee5-85c8-eb4c743bf854" name="IsUnsafe" value="false">
+                  <elementDefinition Id="9be8340c-1b6f-4fca-9016-72886dcd9bad" />
+                </propertyInstance>
+                <elementDefinition Id="02616026-6c2b-4af2-a0b5-dbb8348ac86f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c2f773e6-c9ee-4129-9c47-423dafe73ee0">
+                <propertyInstance Id="b3c92352-f1c5-43b3-9f40-5627bbea71fa" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="cf5b6ee3-4780-4819-8536-9954dc136af6" />
+                </propertyInstance>
+                <elementDefinition Id="6d3935bc-78ff-40af-9a9b-62e8902bf1b0" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="2d545f21-736f-4f0e-a13f-742d40dad8cc" />
+        <suppliersInternal>
+          <interfaceRealization Id="382db1fa-37a5-437d-aeb5-c0dd6d37619b">
+            <interfaceMoniker Id="eec22939-377f-45d8-9e74-96af613901f6" LastKnownName="IMovable" />
+            <elementDefinition Id="699bb775-1bdf-4f10-af5b-bd2ab86ac327" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="598f655e-98ec-4848-9372-53f6ee7e44c7" name="Person" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b4e73b9b-8967-45ca-8358-3017ba89c007" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DPerson Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="0e00e807-aca2-45c4-b25a-8420dee77a83" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="118f022a-28c2-43fd-b8ac-3bd81c8cb020" name="method" profile="CSharpProfile">
+                <elementDefinition Id="072bc8a4-f653-446c-bf96-bb5174c09e49" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9187e1f4-b1b9-44cd-9c45-bb1c4ae6a940">
+                    <propertyInstance Id="26cb7514-0d59-406e-928c-7735a5d90635" name="ClrAttributes">
+                      <elementDefinition Id="349cf2eb-f4ab-4fee-8d8f-0774c476071b" />
+                    </propertyInstance>
+                    <elementDefinition Id="4685ae58-a63c-4ae9-aaaf-a8bee8bd7cfd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b5436126-6ec4-4eb4-a5da-a8dd688f6825">
+                    <propertyInstance Id="540c9966-eca6-4491-8d1a-29c0c149ebc7" name="IsPartial" value="false">
+                      <elementDefinition Id="84697aac-2780-4853-8714-794bb9e72ad0" />
+                    </propertyInstance>
+                    <elementDefinition Id="c1b3fa00-e5ea-4dd5-9720-e83412a2bec1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="61fcd46b-2d8f-4a0b-ba3a-4d9985707998">
+                    <propertyInstance Id="446d98f9-075d-4c28-af47-27168f6f506d" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a070ddcf-9c81-48a2-b70c-3ac642c81d66" />
+                    </propertyInstance>
+                    <elementDefinition Id="b842e895-8881-4d29-8b97-bdb8e0363360" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7f63886b-5cf9-4354-ad88-2fc1480a7cd3">
+                    <propertyInstance Id="417c5441-af1a-43d9-a71f-88b54cf7bc58" name="Inheritance" value="none">
+                      <elementDefinition Id="55615299-4195-45e8-be80-00d82f601911" />
+                    </propertyInstance>
+                    <elementDefinition Id="173b432c-647d-4e8d-b6fe-a36b390aed29" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f056f0f5-c940-48a6-b34e-af6070ea1e8b">
+                    <propertyInstance Id="ed27855a-1230-4686-a297-6d4ea73b7218" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="29749d65-98c3-4812-980c-46ace657bfcd" />
+                    </propertyInstance>
+                    <elementDefinition Id="dd1fb598-3837-4cf5-ac8a-c257514e078c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4b9428ec-8da6-4958-87f7-839a127c4c44">
+                    <propertyInstance Id="05ff1953-efea-4835-a6d3-bcb866d00718" name="params" value="false">
+                      <elementDefinition Id="22b07aea-2089-4ce3-bce7-ee616f44459f" />
+                    </propertyInstance>
+                    <elementDefinition Id="4b32529f-7d72-41c6-967c-ffe8a6426704" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9e968dd7-9924-4c12-9410-2aa2a0d47558" />
+          </operation>
+          <operation Id="bff018c1-2849-4ab5-a51e-6acbd15b45dd" name="Move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="06cdc5b5-2854-4152-8991-fca8f6333691" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DPerson Member%3DMove" tag="ViewCode">
+                <elementDefinition Id="30cd91b2-af6d-4907-937b-5ced262cd6e9" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="620b3159-cf85-4adc-b43e-a23d83925473" name="method" profile="CSharpProfile">
+                <elementDefinition Id="a2ce8301-4fe4-4586-8b72-8635e455e4d7" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0d9c0f58-171a-4fb8-8eae-152b7bc53ebd">
+                    <propertyInstance Id="fa3ddcdd-3514-44d3-ac94-195f8e1a1c2f" name="ClrAttributes">
+                      <elementDefinition Id="d1d27e36-c856-4bd5-9840-f69cf794c52a" />
+                    </propertyInstance>
+                    <elementDefinition Id="a3bc0a72-b1a1-4f41-8599-2b27eaa8d03d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f2776d8c-4214-457b-b1f9-69e43ad8d39c">
+                    <propertyInstance Id="dba7925f-3613-4e30-9187-8b41c576d85f" name="IsPartial" value="false">
+                      <elementDefinition Id="8f29952e-2f3e-4df2-8987-3d8c0418c68b" />
+                    </propertyInstance>
+                    <elementDefinition Id="c3ad9bf6-cfd3-40c6-88aa-f7ec4a4ad273" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0c3c31c7-bf9c-4fc1-b260-b9d6f7e74fe9">
+                    <propertyInstance Id="b26cc39b-7436-4fa8-85cb-e6f453aeb149" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b6ca4ad8-1133-4381-903e-3d20a0f29f57" />
+                    </propertyInstance>
+                    <elementDefinition Id="38fd6bf2-644d-4bcd-aae1-d1f6be863c1b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bd9c2944-d861-409e-9c8f-32a448bcc0cd">
+                    <propertyInstance Id="d7af5c58-1ae6-47bf-95d3-d08b65ee2569" name="Inheritance" value="none">
+                      <elementDefinition Id="f6fda8aa-28ee-4aea-8d10-cb08131abb32" />
+                    </propertyInstance>
+                    <elementDefinition Id="2458489b-53a7-4f8f-b0a7-31021b71ac39" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c6372d21-4899-42ee-9a23-8b5e2067d5f7">
+                    <propertyInstance Id="6f82affa-c0aa-4561-88c4-d7ec01513661" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="0d5eeff8-cf46-438d-89d6-26287848d1b9" />
+                    </propertyInstance>
+                    <elementDefinition Id="6e01672c-c682-484e-bbc0-52d4944faeed" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4d2e90ad-e3f1-4e01-bf3b-208e64505789">
+                    <propertyInstance Id="c47e70c4-bd08-434c-b9a5-c71ef01bb778" name="params" value="false">
+                      <elementDefinition Id="73acbe70-f5c7-4d49-b6d7-68cb2d447295" />
+                    </propertyInstance>
+                    <elementDefinition Id="b2f56630-9932-4e1e-ba1c-d32f6a13b3d4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9b3b0bd7-1bbb-4851-87bd-3476218efe3f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="0283aa8a-d057-4f80-b874-8e357fc43593" name="ModelingProject1">
+    <elementDefinition Id="d4e57284-d055-499a-85f9-de6410e9febb" />
+  </package>
+</logicalClassDesignerModel>

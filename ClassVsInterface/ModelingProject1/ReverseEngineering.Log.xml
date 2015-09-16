@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-09-16T23:48:08" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface' -  (Package)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Bird' -  (Class)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Bird::Bird' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Bird::Move' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Fish' -  (Class)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Fish::Fish' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Fish::Move' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::IMovable' -  (Interface)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::IMovable::Move' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Person' -  (Class)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Person::Move' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Person::Person' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Program' -  (Class)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Program::Main' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::ClassVsInterface::Program::Program' -  (Operation)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ClassVsInterface::Bird to ModelingProject1::ClassVsInterface::IMovable (InterfaceRealization)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ClassVsInterface::Fish to ModelingProject1::ClassVsInterface::IMovable (InterfaceRealization)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::ClassVsInterface::Person to ModelingProject1::ClassVsInterface::IMovable (InterfaceRealization)" />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="High" Text="(5) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-09-16T23:48:09" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

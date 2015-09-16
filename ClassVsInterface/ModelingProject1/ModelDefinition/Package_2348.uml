@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="67b73861-7a71-4a9e-add6-1ac88b74ca5f"
+  name="ClassVsInterface"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="33cae1ee-670d-494f-8b97-1334049e2738"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DClassVsInterface"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="7234a575-6cee-4bc0-b8ee-2e9b24a67117"
+        name="Bird"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3405a199-2286-4648-aad5-bdf793b51e26"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DBird"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e5bbf78d-ccce-456c-a5cb-fb70814cdbce"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88366a2c-9127-45b2-951a-bbab4c704f4b">
+                <propertyInstance
+                  Id="1dfecdcf-2e73-47a9-adb9-25a17bac8dce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65945f70-d57f-4053-8ba3-7b96e728c5fc">
+                <propertyInstance
+                  Id="d8db9718-ac17-46eb-824a-2fd8468dcdb8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="005bf7b0-53a6-44af-82f1-403ee7202593">
+                <propertyInstance
+                  Id="dedb2a9d-946d-4602-840f-fb2ed4d5e9df"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a68c6b7f-0928-4e36-ae02-a7bd57369a81">
+                <propertyInstance
+                  Id="804cf4b7-f037-4960-a8ac-b395c053703f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ad6bff4-f7ae-4131-9367-ea1588550946">
+                <propertyInstance
+                  Id="af550bfd-1855-4d58-8310-031acc84c6cf"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f0ac556f-c94d-482b-8e69-f65297d3dfc4">
+            <interfaceMoniker
+              Id="18c88ee6-ef19-4e0d-b1e3-9817a64cad4d"
+              LastKnownName="IMovable"
+              LastKnownLocation="Package_2348.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8e9c4791-ad85-4907-9ea2-96171b724be7"
+            name="Bird"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cdd35cdb-0b7e-4064-b06b-e741899f3c60"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DBird Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="40f194ce-d884-4bad-a174-067ebebb14e2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="170bf5a2-2565-410f-aad7-b011a77949a7">
+                    <propertyInstance
+                      Id="cb05e06d-87ca-475a-ae12-a8501b327231"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4bf7fbb-a3e5-436f-9822-eb3cc98fcf4f">
+                    <propertyInstance
+                      Id="4a76c7cc-82f9-4301-99b2-fa0d4c8e494c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f63f210-fa42-43f2-8b99-4747e58cb5fa">
+                    <propertyInstance
+                      Id="f183ea57-83b8-4e60-aa3d-6dc097678926"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce6d1315-0b80-4b75-a50a-2f03e4f4dbb9">
+                    <propertyInstance
+                      Id="b8690ed2-7e21-4bb8-b5e9-4324c5c42db2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e665616c-7cd5-404e-85ef-082eb08fe3cc">
+                    <propertyInstance
+                      Id="d4f55c7b-d1d8-4c5d-8582-fc2f0bc2d904"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="715513d9-25c8-462f-ba5f-6733c8069f0f">
+                    <propertyInstance
+                      Id="cd51b277-ca38-49d1-9a07-91ecd5e11b5b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b1d097b8-dc71-4e58-aeb1-bbb1498145c7"
+            name="Move"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9a168814-7db0-48f7-9453-6aaee4849010"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DBird Member%3DMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a3775f3-dc2c-4742-986f-3ca7d522c05f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3540b6c6-cc55-4c25-b193-2069bda4ce28">
+                    <propertyInstance
+                      Id="96882195-c3a9-4050-b9c6-bc49cd95f1fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70fdcbf8-47d4-494c-944d-ce3d9904d2aa">
+                    <propertyInstance
+                      Id="6f2771cf-07a6-42ab-878c-f3a5a81c2dc3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb093f77-be59-4349-a810-7dc3c9f6da5b">
+                    <propertyInstance
+                      Id="13ab62b6-03f3-4e1f-bcf4-3f727ea91fe4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4617400-47d1-447e-995d-18714e89c3b5">
+                    <propertyInstance
+                      Id="f711c334-5317-4b2f-a6d9-b43b9dfc5488"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3386797c-892e-4330-b2cc-5612a9d14a0d">
+                    <propertyInstance
+                      Id="212c7cac-98b3-44df-8f8e-1f85c8ed79bb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b5684ad-10ad-48f8-bc5c-0e776a257198">
+                    <propertyInstance
+                      Id="f0c49eff-8f0e-4c43-8744-2edd8053e22a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="18c88ee6-ef19-4e0d-b1e3-9817a64cad4d"
+        name="IMovable"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="810baa9f-5f5b-4ee0-b30c-0c6b4c7321a5"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DIMovable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a40ed833-759e-48a3-9c65-ff71e73f6d94"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d39c9a70-9abe-4e28-9fbc-255cbd459782">
+                <propertyInstance
+                  Id="9f571b02-6867-4c7c-930d-ea579d3ccd5e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a9f7570-b05a-4961-af24-5c5f964e0603">
+                <propertyInstance
+                  Id="adf54b27-cabb-4f87-8d76-4b2062781864"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d82f3a77-1339-48c6-aecf-1475908d8249">
+                <propertyInstance
+                  Id="8dad19ca-a061-48b5-af55-83f959d04f21"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f77b5e7-5ea6-49ba-b59d-73a05e574362">
+                <propertyInstance
+                  Id="acd22e86-d54a-442e-a049-d57122decab4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="c8b39604-3c4b-4a22-845a-852763dd25f2"
+            name="Move"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="34a013c2-2685-48d5-bef6-ec97b09c7f3c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DIMovable Member%3DMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3b781560-d461-402e-8c31-ee7246ea6a94"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84d490d1-3b45-44d2-b9e9-e220cebf7105">
+                    <propertyInstance
+                      Id="483b26f3-7ded-477f-bcfc-04d2e4460ba5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="214d3c80-4791-4f42-b41e-e3e7b08b56aa">
+                    <propertyInstance
+                      Id="63252610-6108-4f55-83b4-49e1ac07dc12"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d59d38e-eae3-4ac4-b63b-88cc26e04970">
+                    <propertyInstance
+                      Id="055b138f-6689-4695-8ead-86635cf281cf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71098905-7cc0-4f09-bdb1-f5868685cf84">
+                    <propertyInstance
+                      Id="19729186-97cc-4943-a983-2d5282d3633a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49163137-2373-4b33-b55c-b31e540e7753">
+                    <propertyInstance
+                      Id="7474fcaf-a46f-4ebe-96c7-c41c5756b2dd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a45d462d-da8c-42a5-b833-b39a34cc0ffa">
+                    <propertyInstance
+                      Id="a724589d-11c1-4351-87b8-42ce7ea92c8c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0959e8cf-d438-45db-85c7-b88898206300"
+        name="Fish"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="80b92ea6-0d1b-427c-a46d-ab25e5380882"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DFish"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0667829e-adc4-42c9-b6a5-bab030f50b63"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e8db4d0-e518-42cf-8ec6-8ee37ec68a05">
+                <propertyInstance
+                  Id="6baf3b67-a338-4af1-8b7c-1a7444b75c77"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="217de099-805f-4f80-a4e7-1ade4ca12fde">
+                <propertyInstance
+                  Id="a1468297-bfd8-4ba9-89f3-8bbf661f7b4d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8897881e-74c3-414e-b6b1-34af5cd48023">
+                <propertyInstance
+                  Id="9f60d45d-6d4b-490c-a588-8eb6967e9a32"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf25de17-86e3-4145-8371-b54300721a0d">
+                <propertyInstance
+                  Id="c13b8776-29f7-4d9b-9d55-1b63963457bd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="71e31a05-c9fb-4f28-b82c-eb911853510c">
+                <propertyInstance
+                  Id="b7979eb0-3293-4059-95c4-bf357e1d19f9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e4227869-e499-4651-919d-5276e69052b2">
+            <interfaceMoniker
+              Id="18c88ee6-ef19-4e0d-b1e3-9817a64cad4d"
+              LastKnownName="IMovable"
+              LastKnownLocation="Package_2348.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a5a85928-e68a-44d7-994d-f7caf21e4302"
+            name="Fish"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="22985ff3-f033-4b11-bc98-fbaa5f834347"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DFish Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6d8ca244-c5b7-4852-a85c-12d3d874a97f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b737d90-af76-4777-a3e4-579e4983ac4e">
+                    <propertyInstance
+                      Id="8602a567-dad4-4c91-8a2d-6cc631baded7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad706b20-1702-49ea-9e4a-33220311ca9a">
+                    <propertyInstance
+                      Id="51475d68-2867-456f-8780-e156907ff328"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2779bc1-2386-46f4-802a-a1d58bf552ce">
+                    <propertyInstance
+                      Id="720b6da6-44a0-47ba-a4cc-672fc9774b17"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a8b555a-8c89-4fe6-8d34-6e76f6d0139a">
+                    <propertyInstance
+                      Id="bd94ddaf-c98c-4c81-9a29-17cb790a26f7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="202b5006-9ee4-4d48-843a-98cfa48c734d">
+                    <propertyInstance
+                      Id="5f9df8f3-782d-4e6b-82f8-6498e39f11ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c1a2033-800e-424e-807e-f9c4ccef9526">
+                    <propertyInstance
+                      Id="e8e03ede-91c1-4611-8733-6fc577e2ef28"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f122e409-3b91-4136-867a-877de4bb5c4c"
+            name="Move"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0ebe03d8-80a4-4cf0-8961-a69f670bd352"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DFish Member%3DMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="de21ad6f-6aa8-4e39-b714-2aedac595eac"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e80d694f-0ede-40c0-a842-ff9e9824bcf7">
+                    <propertyInstance
+                      Id="2f3d15d9-8fcd-4541-b020-6546e8e41d93"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="832b82f0-25bc-48b8-80e3-6429547674b8">
+                    <propertyInstance
+                      Id="13989bd6-0c3b-4d7e-b41d-1403d771065d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bde5622-bba4-4cc2-b1aa-8d9e388507c7">
+                    <propertyInstance
+                      Id="a4b13c55-b690-458a-bb78-bcd016486156"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="922fab15-be2d-4292-bfd8-c7104fc5bf3c">
+                    <propertyInstance
+                      Id="724b42b5-47f6-4376-87a0-c4c1422db450"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74967f38-5aab-44a3-ae52-1ad997f9267a">
+                    <propertyInstance
+                      Id="80f7f83c-6fdf-4d73-988b-355fc955c469"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64e1cb8a-7e93-49b8-adde-42e4e4ef4157">
+                    <propertyInstance
+                      Id="4b1a4634-0ef6-44d6-ba7c-4e24ca78037d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2d545f21-736f-4f0e-a13f-742d40dad8cc"
+        name="Person"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="22917ee9-f90e-4b36-bfa4-9bdf08ffa466"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DPerson"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7be59539-9ee4-4f16-a05c-c0cb4bf3a6fd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae68c33b-aa33-4d2b-8010-900ab9e0e5e8">
+                <propertyInstance
+                  Id="48e6c89a-3407-4b88-b2a6-d0bfe3315d14"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26d8fad4-a438-4989-911d-91d9ae5a659f">
+                <propertyInstance
+                  Id="77ce08fa-4886-4e00-a69c-bffb1313a4f3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="356de45c-3db4-4690-af9f-ad70e9b82053">
+                <propertyInstance
+                  Id="dcf89cbc-ab0b-485f-b0bb-1f9cd5ed13e6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="02616026-6c2b-4af2-a0b5-dbb8348ac86f">
+                <propertyInstance
+                  Id="9be8340c-1b6f-4fca-9016-72886dcd9bad"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d3935bc-78ff-40af-9a9b-62e8902bf1b0">
+                <propertyInstance
+                  Id="cf5b6ee3-4780-4819-8536-9954dc136af6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="699bb775-1bdf-4f10-af5b-bd2ab86ac327">
+            <interfaceMoniker
+              Id="18c88ee6-ef19-4e0d-b1e3-9817a64cad4d"
+              LastKnownName="IMovable"
+              LastKnownLocation="Package_2348.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9e968dd7-9924-4c12-9410-2aa2a0d47558"
+            name="Person"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0e00e807-aca2-45c4-b25a-8420dee77a83"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DPerson Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="072bc8a4-f653-446c-bf96-bb5174c09e49"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4685ae58-a63c-4ae9-aaaf-a8bee8bd7cfd">
+                    <propertyInstance
+                      Id="349cf2eb-f4ab-4fee-8d8f-0774c476071b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1b3fa00-e5ea-4dd5-9720-e83412a2bec1">
+                    <propertyInstance
+                      Id="84697aac-2780-4853-8714-794bb9e72ad0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b842e895-8881-4d29-8b97-bdb8e0363360">
+                    <propertyInstance
+                      Id="a070ddcf-9c81-48a2-b70c-3ac642c81d66"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="173b432c-647d-4e8d-b6fe-a36b390aed29">
+                    <propertyInstance
+                      Id="55615299-4195-45e8-be80-00d82f601911"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd1fb598-3837-4cf5-ac8a-c257514e078c">
+                    <propertyInstance
+                      Id="29749d65-98c3-4812-980c-46ace657bfcd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b32529f-7d72-41c6-967c-ffe8a6426704">
+                    <propertyInstance
+                      Id="22b07aea-2089-4ce3-bce7-ee616f44459f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9b3b0bd7-1bbb-4851-87bd-3476218efe3f"
+            name="Move"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="30cd91b2-af6d-4907-937b-5ced262cd6e9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fegemen%2FDocuments%2FProjects%2Fegemen.io%2FClassVsInterface%2FC%2523%2FClassVsInterface%2FClassVsInterface%2Fbin%2FDebug%2FClassVsInterface.exe Namespace%3DClassVsInterface Type%3DPerson Member%3DMove"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a2ce8301-4fe4-4586-8b72-8635e455e4d7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3bc0a72-b1a1-4f41-8599-2b27eaa8d03d">
+                    <propertyInstance
+                      Id="d1d27e36-c856-4bd5-9840-f69cf794c52a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3ad9bf6-cfd3-40c6-88aa-f7ec4a4ad273">
+                    <propertyInstance
+                      Id="8f29952e-2f3e-4df2-8987-3d8c0418c68b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38fd6bf2-644d-4bcd-aae1-d1f6be863c1b">
+                    <propertyInstance
+                      Id="b6ca4ad8-1133-4381-903e-3d20a0f29f57"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2458489b-53a7-4f8f-b0a7-31021b71ac39">
+                    <propertyInstance
+                      Id="f6fda8aa-28ee-4aea-8d10-cb08131abb32"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e01672c-c682-484e-bbc0-52d4944faeed">
+                    <propertyInstance
+                      Id="0d5eeff8-cf46-438d-89d6-26287848d1b9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2f56630-9932-4e1e-ba1c-d32f6a13b3d4">
+                    <propertyInstance
+                      Id="73acbe70-f5c7-4d49-b6d7-68cb2d447295"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
